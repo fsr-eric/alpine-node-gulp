@@ -10,3 +10,4 @@ WORKDIR /usr/share/nginx/html
 RUN npm install gulp --save-dev
 
 ENTRYPOINT ["gulp"]
+CMD ["--version"]
