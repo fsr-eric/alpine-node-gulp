@@ -7,4 +7,6 @@ RUN npm install gulp -g
 
 WORKDIR /usr/share/nginx/html
 
-CMD ["npm", "start"]
+RUN npm install gulp --save-dev
+
+ENTRYPOINT ["gulp"]
