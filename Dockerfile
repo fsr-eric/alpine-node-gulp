@@ -12,6 +12,7 @@ RUN apk add --update \
   && rm -rf /var/cache/apk/*
 
 RUN npm install gulp -g
+RUN npm install -g bower
 
 WORKDIR /usr/share/nginx/html
 
