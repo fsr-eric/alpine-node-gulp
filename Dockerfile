@@ -9,6 +9,7 @@ RUN apk add --update \
     py-pip \
     build-base \
     git \
+    openssh-client \
   && pip install virtualenv \
   && rm -rf /var/cache/apk/*
 
